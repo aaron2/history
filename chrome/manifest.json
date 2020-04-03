@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Save All History",
+  "description": "This extension will save all browsing history",
+  "version": "1.0",
+
+  "permissions": [
+   "webNavigation",
+   "https://*/",
+   "http://*/",
+   "tabs"
+   ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
