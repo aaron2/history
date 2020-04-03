@@ -1,0 +1,21 @@
+{
+  "name": "history",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "~7.6.1",
+    "URIjs": "*",
+    "cookie-parser": "*",
+    "elasticdump": "^6.24.0",
+    "errorhandler": "*",
+    "express": "*",
+    "express-session": "*",
+    "morgan": "*",
+    "request": "*",
+    "serve-favicon": "*",
+    "urlsafe-base64": "*"
+  }
+}

@@ -1,0 +1,727 @@
+{
+    "ign.com": [
+        "entertainment"
+    ],
+    "aljazeera.com": [
+        "news"
+    ],
+    "elpais.com": [
+        "news"
+    ],
+    "fifa.com": [
+        "sports"
+    ],
+    "w3schools.com": [
+        "education"
+    ],
+    "quizlet.com": [
+        "education"
+    ],
+    "amazon.es": [
+        "shopping"
+    ],
+    "thefreedictionary.com": [
+        "education"
+    ],
+    "amazon.de": [
+        "shopping"
+    ],
+    "nyu.edu": [
+        "education"
+    ],
+    "dailymotion.com": [
+        "entertainment"
+    ],
+    "ieee.org": [
+        "education"
+    ],
+    "pbs.org": [
+        "news"
+    ],
+    "google.es": [
+        "search"
+    ],
+    "archive.org": [
+        "education"
+    ],
+    "venturebeat.com": [
+        "news"
+    ],
+    "espn.com": [
+        "sports"
+    ],
+    "amazon.in": [
+        "shopping"
+    ],
+    "zdnet.com": [
+        "news"
+    ],
+    "dropbox.com": [
+        "personal"
+    ],
+    "theguardian.com": [
+        "news"
+    ],
+    "gamespot.com": [
+        "entertainment"
+    ],
+    "yahoo.co.jp": [
+        "news"
+    ],
+    "line.me": [
+        "social"
+    ],
+    "bandcamp.com": [
+        "music"
+    ],
+    "ted.com": [
+        "education"
+    ],
+    "usatoday.com": [
+        "news"
+    ],
+    "walmart.com": [
+        "shopping"
+    ],
+    "photos.google.com": [
+        "personal"
+    ],
+    "wikipedia.org": [
+        "education"
+    ],
+    "bloomberg.com": [
+        "news"
+    ],
+    "airbnb.com": [
+        "travel"
+    ],
+    "hotels.com": [
+        "travel"
+    ],
+    "expedia.com": [
+        "travel"
+    ],
+    "kayak.com": [
+        "travel"
+    ],
+    "flights.google.com": [
+        "travel"
+    ],
+    "deadspin.com": [
+        "entertainment"
+    ],
+    "billboard.com": [
+        "entertainment"
+    ],
+    "quora.com": [
+        "education"
+    ],
+    "nasa.gov": [
+        "education"
+    ],
+    "usgs.gov": [
+        "news"
+    ],
+    "lonelyplanet.com": [
+        "travel"
+    ],
+    "cdc.gov": [
+        "education"
+    ],
+    "wikia.com": [
+        "entertainment"
+    ],
+    "spiegel.de": [
+        "news"
+    ],
+    "news.google.com": [
+        "news"
+    ],
+    "tabelog.com": [
+        "search",
+        "food"
+    ],
+    "eater.com": [
+        "food"
+    ],
+    "drive.google.com": [
+        "personal"
+    ],
+    "finance.yahoo.com": [
+        "news"
+    ],
+    "instructables.com": [
+        "education"
+    ],
+    "guardian.co.uk": [
+        "news"
+    ],
+    "cbslocal.com": [
+        "news"
+    ],
+    "ehow.com": [
+        "education"
+    ],
+    "vimeo.com": [
+        "entertainment"
+    ],
+    "wired.com": [
+        "news"
+    ],
+    "news.yahoo.com": [
+        "news"
+    ],
+    "twitter.com": [
+        "social"
+    ],
+    "aliexpress.com": [
+        "shopping"
+    ],
+    "playstation.com": [
+        "entertainment"
+    ],
+    "newsweek.com": [
+        "news"
+    ],
+    "search.google.com": [
+        "search"
+    ],
+    "amazon.it": [
+        "shopping"
+    ],
+    "theverge.com": [
+        "news"
+    ],
+    "amazon.fr": [
+        "shopping"
+    ],
+    "webmd.com": [
+        "education"
+    ],
+    "scribd.com": [
+        "education"
+    ],
+    "shopify.com": [
+        "shopping"
+    ],
+    "nydailynews.com": [
+        "news"
+    ],
+    "britannica.com": [
+        "education"
+    ],
+    "wikipedia.org": [
+        "education"
+    ],
+    "spotify.com": [
+        "music"
+    ],
+    "facebook.com": [
+        "social"
+    ],
+    "oreilly.com": [
+        "education"
+    ],
+    "buzzfeed.com": [
+        "news"
+    ],
+    "cnbc.com": [
+        "news"
+    ],
+    "paypal.com": [
+        "personal"
+    ],
+    "abcnews.go.com": [
+        "news"
+    ],
+    "maps.google.com": [
+        "search",
+        "maps"
+    ],
+    "urbandictionary.com": [
+        "education"
+    ],
+    "bizjournals.com": [
+        "news"
+    ],
+    "ebay.com": [
+        "shopping"
+    ],
+    "eonline.com": [
+        "entertainment"
+    ],
+    "cnn.com": [
+        "news"
+    ],
+    "github.com": [
+        "education"
+    ],
+    "google.com.tw": [
+        "search"
+    ],
+    "politico.com": [
+        "news"
+    ],
+    "chicagotribune.com": [
+        "news"
+    ],
+    "netflix.com": [
+        "entertainment"
+    ],
+    "coursera.org": [
+        "education"
+    ],
+    "google.it": [
+        "search"
+    ],
+    "office.com": [
+        "personal"
+    ],
+    "pinterest.com": [
+        "social"
+    ],
+    "alibaba.com": [
+        "shopping"
+    ],
+    "tripadvisor.com": [
+        "travel"
+    ],
+    "google.de": [
+        "search"
+    ],
+    "google.fr": [
+        "search"
+    ],
+    "fastcompany.com": [
+        "news"
+    ],
+    "bbc.co.uk": [
+        "news"
+    ],
+    "sciencedaily.com": [
+        "news"
+    ],
+    "strava.com": [
+        "personal"
+    ],
+    "theatlantic.com": [
+        "news"
+    ],
+    "goodreads.com": [
+        "entertainment"
+    ],
+    "xinhuanet.com": [
+        "news"
+    ],
+    "steampowered.com": [
+        "entertainment"
+    ],
+    "wikihow.com": [
+        "education"
+    ],
+    "soundcloud.com": [
+        "music"
+    ],
+    "google.com.br": [
+        "search"
+    ],
+    "sky.com": [
+        "news"
+    ],
+    "cbc.ca": [
+        "news"
+    ],
+    "dailymail.co.uk": [
+        "news"
+    ],
+    "indiatimes.com": [
+        "news"
+    ],
+    "vk.com": [
+        "social"
+    ],
+    "mail.ru": [
+        "personal"
+    ],
+    "gutenberg.org": [
+        "education"
+    ],
+    "pcmag.com": [
+        "news"
+    ],
+    "thedailybeast.com": [
+        "news"
+    ],
+    "google.ca": [
+        "search"
+    ],
+    "cnet.com": [
+        "news"
+    ],
+    "whatsapp.com": [
+        "social"
+    ],
+    "target.com": [
+        "shopping"
+    ],
+    "marketwatch.com": [
+        "news"
+    ],
+    "time.com": [
+        "news"
+    ],
+    "cbsnews.com": [
+        "news"
+    ],
+    "www.google.com": [
+        "search"
+    ],
+    "amazon.co.uk": [
+        "shopping"
+    ],
+    "google.com.au": [
+        "search"
+    ],
+    "translate.google.com": [
+        "education"
+    ],
+    "groups.google.com": [
+        "social"
+    ],
+    "mail.google.com": [
+        "personal"
+    ],
+    "forbes.com": [
+        "news"
+    ],
+    "reuters.com": [
+        "news"
+    ],
+    "instagram.com": [
+        "social"
+    ],
+    "huffpost.com": [
+        "news"
+    ],
+    "businessinsider.com": [
+        "news"
+    ],
+    "wsj.com": [
+        "news"
+    ],
+    "weather.com": [
+        "news"
+    ],
+    "google.nl": [
+        "search"
+    ],
+    "telegram.me": [
+        "social"
+    ],
+    "ebay.co.uk": [
+        "shopping"
+    ],
+    "youtu.be": [
+        "entertainment"
+    ],
+    "books.google.com": [
+        "education"
+    ],
+    "medium.com": [
+        "news",
+        "entertainment",
+        "social"
+    ],
+    "news.com.au": [
+        "news"
+    ],
+    "engadget.com": [
+        "news"
+    ],
+    "discovery.com": [
+        "news"
+    ],
+    "thoughtco.com": [
+        "education"
+    ],
+    "marriott.com": [
+        "travel"
+    ],
+    "gmail.com": [
+        "personal"
+    ],
+    "www.livejournal.com": [
+        "social"
+    ],
+    "etsy.com": [
+        "shopping"
+    ],
+    "amazon.com": [
+        "shopping"
+    ],
+    "arxiv.org": [
+        "education"
+    ],
+    "telegraph.co.uk": [
+        "news"
+    ],
+    "nytimes.com": [
+        "news"
+    ],
+    "sfgate.com": [
+        "news"
+    ],
+    "nypost.com": [
+        "news"
+    ],
+    "ikea.com": [
+        "shopping"
+    ],
+    "mail.yahoo.com": [
+        "personal"
+    ],
+    "rakuten.co.jp": [
+        "shopping"
+    ],
+    "sciencemag.org": [
+        "news"
+    ],
+    "economist.com": [
+        "news"
+    ],
+    "feedly.com": [
+        "personal"
+    ],
+    "huffingtonpost.com": [
+        "news"
+    ],
+    "google.co.uk": [
+        "search"
+    ],
+    "latimes.com": [
+        "news"
+    ],
+    "google.co.jp": [
+        "search"
+    ],
+    "foursquare.com": [
+        "social"
+    ],
+    "amazon.co.jp": [
+        "shopping"
+    ],
+    "thesun.co.uk": [
+        "news"
+    ],
+    "www.yahoo.com": [
+        "search"
+    ],
+    "live.com": [
+        "personal"
+    ],
+    "stackoverflow.com": [
+        "education"
+    ],
+    "slate.com": [
+        "news"
+    ],
+    "skype.com": [
+        "social"
+    ],
+    "washingtonpost.com": [
+        "news"
+    ],
+    "wiktionary.org": [
+        "education"
+    ],
+    "techcrunch.com": [
+        "news"
+    ],
+    "thetimes.co.uk": [
+        "news"
+    ],
+    "evernote.com": [
+        "personal"
+    ],
+    "docs.google.com": [
+        "personal"
+    ],
+    "variety.com": [
+        "news"
+    ],
+    "foxnews.com": [
+        "news"
+    ],
+    "linkedin.com": [
+        "social"
+    ],
+    "mashable.com": [
+        "news"
+    ],
+    "newyorker.com": [
+        "news"
+    ],
+    "google.co.in": [
+        "search"
+    ],
+    "twitch.tv": [
+        "entertainment"
+    ],
+    "abc.net.au": [
+        "news"
+    ],
+    "merriam-webster.com": [
+        "education"
+    ],
+    "amazon.ca": [
+        "shopping"
+    ],
+    "psychologytoday.com": [
+        "news"
+    ],
+    "answers.com": [
+        "search"
+    ],
+    "fandom.com": [
+        "entertainment"
+    ],
+    "adweek.com": [
+        "news"
+    ],
+    "google.co.id": [
+        "search"
+    ],
+    "disney.com": [
+        "entertainment"
+    ],
+    "npr.org": [
+        "news"
+    ],
+    "eventbrite.com": [
+        "social"
+    ],
+    "vice.com": [
+        "news",
+        "entertainment"
+    ],
+    "calendar.google.com": [
+        "personal"
+    ],
+    "box.com": [
+        "personal"
+    ],
+    "apple.com": [
+        "shopping"
+    ],
+    "icloud.apple.com": [
+        "personl"
+    ],
+    "zoom.us": [
+        "personal"
+    ],
+    "bing.com": [
+        "search"
+    ],
+    "search.yahoo.com": [
+        "search"
+    ],
+    "csmonitor.com": [
+        "news"
+    ],
+    "vox.com": [
+        "news"
+    ],
+    "vkontakte.ru": [
+        "social"
+    ],
+    "arstechnica.com": [
+        "news"
+    ],
+    "gizmodo.com": [
+        "news"
+    ],
+    "hollywoodreporter.com": [
+        "entertainment"
+    ],
+    "msn.com": [
+        "news"
+    ],
+    "yelp.com": [
+        "search",
+        "food"
+    ],
+    "dictionary.com": [
+        "education"
+    ],
+    "booking.com": [
+        "travel"
+    ],
+    "discord.gg": [
+        "social"
+    ],
+    "xbox.com": [
+        "entertainment"
+    ],
+    "www.blogger.com": [
+        "social"
+    ],
+    "sports.yahoo.com": [
+        "sports"
+    ],
+    "fortune.com": [
+        "news"
+    ],
+    "youtube.com": [
+        "entertainment"
+    ],
+    "imdb.com": [
+        "entertainment"
+    ],
+    "usnews.com": [
+        "news"
+    ],
+    "independent.co.uk": [
+        "news"
+    ],
+    "pornhub.com": [
+        "adult"
+    ],
+    "spankbang.com": [
+        "adult"
+    ],
+    "sfist.com": [
+        "news"
+    ],
+    "sfweekly.com": [
+        "news"
+    ],
+    "slashdot.org": [
+        "news"
+    ],
+    "abc7news.comg": [
+        "news"
+    ],
+    "mtbr.com": [
+        "entertainment"
+    ],
+    "pinkbike.com": [
+        "entertainment"
+    ],
+    "rarbg.to": [
+        "entertainment"
+    ],
+    "rottentomatoes.com": [
+        "entertainment"
+    ],
+    "reddit.com": [
+        "entertainment"
+    ],
+    "aws.amazon.com": [
+    ],
+    "nbcbayarea.com": [
+        "news"
+    ],
+    "abc7.com": [
+        "news"
+    ]
+}
