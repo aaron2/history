@@ -13,30 +13,24 @@ c = elasticClient.indices.create({
   body: {
     mappings: {
       properties: {
-        url: {
-          type: "object",
-          properties: {
-            protocol: {
-              type: "keyword",
-            },
-            hostname: {
-              type: "text",
-              analyzer: "hostname_analyzer",
-              search_analyzer: "keyword"
-            },
-            path: {
-              type: "text"
-            },
-            query: {
-              type: "text",
-              analyzer: "querystring_analyzer"
-            }
-          }
-        },
         link: { type: "text", index: false },
+        protocol: { type: "keyword", },
+        domain: {
+          type: "text",
+          analyzer: "hostname_analyzer",
+          search_analyzer: "keyword"
+        },
+        path: { type: "text" },
+        query: {
+          type: "text",
+          analyzer: "querystring_analyzer"
+        },
+        title: { type: "text", analyzer: "stop" },
+        content: { type: "text", analyzer: "stop" },
         visited: { type: "date" },
         transition_type: { type: "keyword" },
         category: { type: "keyword" },
+        topic: { type: "keyword" },
       },
     },
     settings: {

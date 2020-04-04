@@ -29,17 +29,20 @@ exports.add = function(req, res) {
     res.status(200).send();
     return;
   }
+  if (cat.includes('personal')) {
+    req.body.text = '';
+  }
 
   console.log(cat, uri.normalize().toString());
   elasticClient.index({
     index: 'urls',
     body: {
-      url: {
-        protocol: uri.protocol(),
-        hostname: uri.hostname(),
-        path: uri.path(),
-        query: uri.query(),
-      },
+      protocol: uri.protocol(),
+      domain: uri.hostname(),
+      path: uri.path(),
+      query: uri.query(),
+      title: req.body.title,
+      content: req.body.text,
       link: uri.normalize().toString(),
       visited: parseInt(new Date().getTime()),
       transition_type: req.body.transition_type,
