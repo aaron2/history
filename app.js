@@ -3,6 +3,7 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , add_v1 = require('./routes/add_v1')
+  , significance = require('./routes/significance')
 
 var elasticsearch = require('@elastic/elasticsearch');
 elasticClient = new elasticsearch.Client({
@@ -53,6 +54,7 @@ var errorhandler = require('errorhandler')
 
 app.get('/', routes.index);
 app.post('/add', add_v1.add);
+app.post('/significance', significance.set);
 
 http.createServer(app).listen(app.get('port'), 'localhost', function(){
   console.log("Express server listening on port " + app.get('port'));
