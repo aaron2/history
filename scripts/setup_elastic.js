@@ -13,14 +13,25 @@ c = elasticClient.indices.create({
   body: {
     mappings: {
       properties: {
-        link: { type: "text", index: false },
+        link: { type: "keyword", index: false, doc_values: false },
         protocol: { type: "keyword", },
         domain: {
           type: "text",
           analyzer: "hostname_analyzer",
           search_analyzer: "keyword"
         },
-        path: { type: "text" },
+        path: {
+          type: "text",
+          fields: {
+            raw: { type: "keyword" }
+          }
+        },
+        referrer: {
+          properties: {
+            referrer: { type: "keyword" },
+            domain: { type: "keyword" },
+          }
+        },
         query: {
           type: "text",
           analyzer: "querystring_analyzer"
@@ -31,6 +42,7 @@ c = elasticClient.indices.create({
         transition_type: { type: "keyword" },
         category: { type: "keyword" },
         topic: { type: "keyword" },
+        significance: { type: "byte" },
       },
     },
     settings: {
