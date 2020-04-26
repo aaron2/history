@@ -9,6 +9,12 @@ exports.add = function(req, res) {
     return;
   }
 
+  var ref = {};
+  if (req.body.referrer != "") {
+    ref.referrer = req.body.referrer.trim();
+    var r = new global.uri(ref.referrer);
+    ref.domain = r.domain();
+  }
 
   var uri = new global.uri(req.body.url.trim());
   //if (!user) return uri.normalize().toString();
@@ -44,6 +50,7 @@ exports.add = function(req, res) {
       title: req.body.title,
       content: req.body.text,
       link: uri.normalize().toString(),
+      referrer: ref,
       visited: parseInt(new Date().getTime()),
       transition_type: req.body.transition_type,
       category: cat,
