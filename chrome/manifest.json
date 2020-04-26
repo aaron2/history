@@ -9,10 +9,14 @@
    "webNavigation",
    "https://*/",
    "http://*/",
-   "tabs"
+   "tabs",
+   "declarativeContent"
    ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "menu.html"
   }
 }
