@@ -31,13 +31,6 @@ var q = {
   //],
   "query": {
     "bool": {
-      "must": [],
-      "filter": [
-        {
-          "match_all": {}
-        }
-      ],
-      "should": [],
       "must_not": [
         { "exists": { "field": "topic" }},
         { "term": { "category": "personal" }},
@@ -52,7 +45,7 @@ elasticClient.search({
 })
 .catch(console.log)
 .then(function(res) {
-  res.body.hits.hits.forEach(function(doc) {
+  res.body.hits.hits.forEach(async function(doc) {
     if (doc._source.content == '' || doc._source.content == null) {
       return;
     }
@@ -85,7 +78,7 @@ elasticClient.search({
       return;
     }
 
-    content = doc._source.content[0];
+    content = doc._source.content;
     //content = content.replace(/[’']([st]) /g, "$1 "); 
     //content = content.replace(/[“”‘]+/g, '"'); 
     //content = content.replace(/[\(\)\[\],]/g, ''); 
@@ -94,7 +87,6 @@ elasticClient.search({
     //console.log(content);
     var s = content.match( /[^\.!\?]+[\.!\? ]+/g );
     var l = lda(s, 2, 5);
-    console.log(doc._id);
     console.log(doc._source.link);
     //console.log(l);
     topics = [];
@@ -105,7 +97,7 @@ elasticClient.search({
     }
     console.log(topics);
 
-    elasticClient.update({
+    await elasticClient.update({
       index: 'urls',
       id: doc._id,
       body: {
